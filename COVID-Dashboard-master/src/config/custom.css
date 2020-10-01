@@ -1,0 +1,74 @@
+span.COVID_Icon_Wrapper_Header {
+    display: inline-block;
+    padding-left: 8px;
+}
+span.COVID_Icon_Wrapper_Toolbar_Enabled {
+    display: inline-block;
+    background-color: #0b2e13;
+    padding: 2px;
+    border-radius: 8px;
+}
+span.COVID_Icon_Wrapper_Toolbar_Disabled {
+    display: inline-block;
+    background-color: #c0c0c0;
+    padding: 2px;
+    border-radius: 8px;
+}
+@media only screen and (max-width: 600px) {
+    .VictoryContainer {
+        user-select: auto !important;
+        pointer-events: auto !important;
+        touch-action: auto !important;
+    }
+}
+div.menuDashboardItemTop {
+    font-size: 14px;
+}
+div.menuDashboardItemBottom {
+    text-transform: uppercase;
+    font-size: 10px;
+    border-top: 1px solid #404040;
+}
+#DashboardDropDownMenu > .dropdown-menu {
+    margin: 0px;
+    padding: 0px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color:rgba(0,0,0,.04);
+}
+.table-striped thead {
+    border-bottom: 1px solid #dee2e6;
+}
+.WidgetConfigElement {
+    padding: 8px;
+    margin-bottom: 4px;
+}
+.WidgetConfigElement:not(:last-child) {
+    border-bottom: 1px solid #e8e8e8;
+}
+.WidgetConfigGroup {
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border-radius: 8px;
+    border: 1px solid #d8d8d8;
+    background-color: #f4f4f4;
+    box-shadow: -1px 8px 15px -2px rgba(0,0,0,0.20);
+}
+.WidgetSelector {
+    display: flex;
+    justify-content: center;
+}
+.WidgetSelector .dropdown-toggle, .WidgetSelector .show>.btn-secondary.dropdown-toggle {
+    border: 0;
+    background-color: transparent;
+    color: #202020
+}
+.btn-secondary.dropdown-toggle, .show>.btn-secondary.dropdown-toggle {
+    border: 0;
+    background-color: transparent;
+    color: #202020
+}
+
+
+
